@@ -100,7 +100,7 @@ for an in range(2015, anio+1):
     plt.plot_date(dates, supporters, '-', label = an, linewidth=ancho, markersize=0.0, color = colores[str(an)])
 plt.legend(loc="lower right", ncol=2)
 fig.text(x=0.5, y=0.01, s=f"Generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC", ha='center', va='center', fontsize=8)
-plt.savefig(f"plot_{an}.png",dpi=200)
+plt.savefig(f"bgg_{an}.png",dpi=200)
 plt.close('all')
 
 os.system(f"rclone copy {path}/bgg_{anio}.png gdrive:bgg_drive")
