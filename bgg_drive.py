@@ -1,4 +1,3 @@
-from turtle import color
 import urllib.request
 import re
 from datetime import datetime, timezone
@@ -84,7 +83,6 @@ ax1.xaxis.set_major_locator(mdates.DayLocator(interval=2))
 plt.grid()
 
 for an in range(2015, anio+1):
-    print(an)
     x = [] 
     y = [] 
     for line in open(f"drive_{an}.dat", "r"):
