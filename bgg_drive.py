@@ -103,4 +103,4 @@ fig.text(x=0.5, y=0.01, s=f"Generated on {datetime.now(timezone.utc).strftime('%
 plt.savefig(f"plot_{an}.png",dpi=200)
 plt.close('all')
 
-os.execute(f"rclone copy {path}/bgg_{anio}.png gdrive:bgg_drive")
+os.system(f"rclone copy {path}/bgg_{anio}.png gdrive:bgg_drive")
