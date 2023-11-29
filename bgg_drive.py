@@ -1,12 +1,14 @@
+###############################################################
+# En bgg, apuntar a [IMG]https://drive.google.com/uc?id=1kWXNh9uI_LlDJEDI1QWVIriGkj0L4zqZ[/IMG]
+###############################################################
+
 import urllib.request
 import re
 from datetime import datetime, timezone
 from urllib.error import URLError, HTTPError
 import socket
-from matplotlib import axis
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-from matplotlib.ticker import FormatStrFormatter
 import pandas as pd
 import os
 
