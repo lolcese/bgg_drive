@@ -2,11 +2,8 @@
 # En bgg, apuntar a [IMG]https://drive.google.com/uc?id=1kWXNh9uI_LlDJEDI1QWVIriGkj0L4zqZ[/IMG]
 ###############################################################
 
-import urllib.request
-import re
+import requests
 from datetime import datetime, timezone
-from urllib.error import URLError, HTTPError
-import socket
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import pandas as pd
@@ -30,48 +27,34 @@ colores = {
 
 ##############################
 
-######### Baja una página
-def baja_pagina(url):
-    req = urllib.request.Request(url,headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'}) 
-    try:
-        data = urllib.request.urlopen(req, timeout = 60)
-    except HTTPError as e:
-        # print(f"**** HTTPError bajando {url}")
-        return "Error"
-    except socket.timeout:
-        # print(f"**** Timeout bajando {url}")
-        return "Error"
-    except URLError as e:
-        # print(f"**** URLError bajando {url}")
-        return "Error"
+# ######### Baja una página
+# def baja_pagina(url):
+#     page = urlopen(url)
+#     html_bytes = page.read()
+#     html = html_bytes.decode("utf-8")
+#     return html
 
-    if data.headers.get_content_charset() is None:
-        encoding='utf-8'
-    else:
-        encoding = data.headers.get_content_charset()
+# ######### Lee información de BGG
+# def lee_pagina():
+#     url = f"www.lilialardone.com.ar/temp/drive_{anio}.dat"
+#     text = baja_pagina(url)
+    # print(text)
+    # if text == "Error":
+    #     return None
+    # supporters = re.search("<h3 class='support-drive-status-title'>(.*)? Supporters</h3>",text)
+    # if not supporters:
+    #    return None
+    # return supporters
 
-    try: 
-        pag = data.read().decode(encoding, errors='ignore')
-    except:
-        return "Error"
-    return pag
+# don = lee_pagina()
+# if don != None:
+#     f = open(f"{path}/drive_{anio}.dat", "a")
+#     f.write(f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')},{don}\n")
+#     f.close()
 
-######### Lee información de BGG
-def lee_pagina():
-    url = f"https://www.boardgamegeek.com/"
-    text = baja_pagina(url)
-    if text == "Error":
-        return None
-    supporters = re.search("<h3 class='support-drive-status-title'>(.*)? Supporters</h3>",text)
-    if not supporters:
-       return None
-    return supporters
-
-don = lee_pagina()
-if don != None:
-    f = open(f"{path}/drive_{anio}.dat", "a")
-    f.write(f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')},{don}\n")
-    f.close()
+url = f"http://www.lilialardone.com.ar/temp/drive_{anio}.dat"
+response = requests.get(url)
+open(f"drive_{anio}.dat", "wb").write(response.content)
 
 fig, ax1 = plt.subplots()
 fig.suptitle(f"BGG Supporter drive {anio}")
