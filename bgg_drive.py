@@ -8,10 +8,13 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import pandas as pd
 import os
+import re
+from urllib.request import urlopen
 
 ##############################
 path = "/root/bgg_drive"
 anio = 2023
+goal = 18000
 
 colores = {
  '2015': '#e0c492',
@@ -24,37 +27,31 @@ colores = {
  '2022': '#88f2cb',
  '2023': '#3504c9',
 }
-
 ##############################
 
-# ######### Baja una página
-# def baja_pagina(url):
-#     page = urlopen(url)
-#     html_bytes = page.read()
-#     html = html_bytes.decode("utf-8")
-#     return html
+######### Baja una página
+def baja_pagina(url):
+    page = urlopen(url)
+    html_bytes = page.read()
+    html = html_bytes.decode("utf-8")
+    return html
 
-# ######### Lee información de BGG
-# def lee_pagina():
-#     url = f"www.lilialardone.com.ar/temp/drive_{anio}.dat"
-#     text = baja_pagina(url)
-    # print(text)
-    # if text == "Error":
-    #     return None
-    # supporters = re.search("<h3 class='support-drive-status-title'>(.*)? Supporters</h3>",text)
-    # if not supporters:
-    #    return None
-    # return supporters
+######### Lee información de BGG
+def lee_pagina():
+    url = "https://boardgamegeek.com/support/randomblurb"
+    text = baja_pagina(url)
+    if text == "Error":
+        return None
+    supporters = re.search('"numsupporters":"(.*?)"',text)[1]
+    if not supporters:
+       return None
+    return supporters
 
-# don = lee_pagina()
-# if don != None:
-#     f = open(f"{path}/drive_{anio}.dat", "a")
-#     f.write(f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')},{don}\n")
-#     f.close()
-
-url = f"http://www.lilialardone.com.ar/temp/drive_{anio}.dat"
-response = requests.get(url)
-open(f"drive_{anio}.dat", "wb").write(response.content)
+don = lee_pagina()
+if don != None:
+    f = open(f"{path}/drive_{anio}.dat", "a")
+    f.write(f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')},{don}\n")
+    f.close()
 
 fig, ax1 = plt.subplots()
 fig.suptitle(f"BGG Supporter drive {anio}")
@@ -79,11 +76,14 @@ for an in range(2015, anio+1):
     dates = [pd.to_datetime(d) - pd.DateOffset(years = an - 2015) for d in x]
     supporters = [int(d) for d in y]
     if an == anio:
-        ancho = 3.0
+        ancho = 4.0
     else:
         ancho = 2.0
     plt.plot_date(dates, supporters, '-', label = an, linewidth=ancho, markersize=0.0, color = colores[str(an)])
 plt.legend(loc="lower right", ncol=2)
+plt.tight_layout()
+plt.axhline(y=goal, color="#228b22", linestyle='-')
+plt.text(x=pd.Timestamp('2015-12-01 12:00:00'), y=18200, s=f"Goal: {goal} supporters", ha='left', va='bottom', fontsize=12, color="#228b22") 
 fig.text(x=0.5, y=0.01, s=f"Generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC", ha='center', va='center', fontsize=8)
 plt.savefig(f"bgg_{an}.png",dpi=200)
 plt.close('all')
