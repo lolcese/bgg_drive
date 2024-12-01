@@ -1,5 +1,6 @@
+# coding=utf-8
 ###############################################################
-# En bgg, apuntar a [IMG]https://drive.google.com/uc?id=1kWXNh9uI_LlDJEDI1QWVIriGkj0L4zqZ[/IMG]
+# En bgg, apuntar a [IMG]https://drive.google.com/file/d/1u7UxDHF1t-QAG1d_JTSXO1Mop5Z59zuB[/IMG]
 ###############################################################
 
 import requests
@@ -12,9 +13,10 @@ import re
 from urllib.request import urlopen
 
 ##############################
-path = "/root/bgg_drive"
-anio = 2023
-goal = 18000
+# path = "/root/bgg_drive"
+path = "."
+anio = 2024
+goal = 20000
 
 colores = {
  '2015': '#e0c492',
@@ -26,6 +28,7 @@ colores = {
  '2021': '#ad114c',
  '2022': '#88f2cb',
  '2023': '#3504c9',
+ '2024': '#9b48a8',
 }
 ##############################
 
@@ -60,32 +63,33 @@ fig.autofmt_xdate()
 ax1.xaxis.set_major_formatter(mdates.DateFormatter("%d"))
 ax1.set_xlim(pd.Timestamp('2015-12-01 00:00:00'), pd.Timestamp('2016-01-01 12:00:00'))
 ax1.set_ylabel('Supporters')
-ax1.set_ylim(0, 20000)
+ax1.set_ylim(0, 21000)
 ax1.xaxis.set_major_locator(mdates.DayLocator(interval=2))
 plt.grid()
 
 for an in range(2015, anio+1):
-    x = [] 
-    y = [] 
+    x = []
+    y = []
     for line in open(f"drive_{an}.dat", "r"):
         lines = [i for i in line.split(",")]
         if lines[1] == "\n":
             continue
-        x.append(lines[0]) 
+        x.append(lines[0])
         y.append(lines[1])
     dates = [pd.to_datetime(d) - pd.DateOffset(years = an - 2015) for d in x]
     supporters = [int(d) for d in y]
     if an == anio:
-        ancho = 4.0
-    else:
-        ancho = 2.0
-    plt.plot_date(dates, supporters, '-', label = an, linewidth=ancho, markersize=0.0, color = colores[str(an)])
+        plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+    plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
 plt.legend(loc="lower right", ncol=2)
 plt.tight_layout()
 plt.axhline(y=goal, color="#228b22", linestyle='-')
-plt.text(x=pd.Timestamp('2015-12-01 12:00:00'), y=18200, s=f"Goal: {goal} supporters", ha='left', va='bottom', fontsize=12, color="#228b22") 
+plt.text(x=pd.Timestamp('2015-12-01 12:00:00'), y=goal, s=f"Goal: {goal} supporters", ha='left', va='bottom', fontsize=12, color="#228b22") 
 fig.text(x=0.5, y=0.01, s=f"Generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC", ha='center', va='center', fontsize=8)
 plt.savefig(f"bgg_{an}.png",dpi=200)
 plt.close('all')
 
-os.system(f"rclone copy {path}/bgg_{anio}.png gdrive:bgg_drive")
+#os.system(f"rclone copy {path}/bgg_{anio}.png gdrive:bgg_drive")
+os.system("git add bgg_2024.png")
+os.system('git commit -m "Imagen actualizada automáticamente"')
+os-system("git push")

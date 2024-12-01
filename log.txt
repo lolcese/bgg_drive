@@ -1,0 +1,613 @@
+  File "bgg_drive.py", line 34
+SyntaxError: Non-ASCII character '\xc3' in file bgg_drive.py on line 34, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+  File "bgg_drive.py", line 55
+    f = open(f"{path}/drive_{anio}.dat", "a")
+                                      ^
+SyntaxError: invalid syntax
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=6, markersize=0.0, color = "#FFFFFF")
+/home/lolcese/bgg_drive/bgg_drive.py:83: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+/home/lolcese/bgg_drive/bgg_drive.py:82: MatplotlibDeprecationWarning: The plot_date function was deprecated in Matplotlib 3.9 and will be removed in 3.11. Use plot instead.
+  plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+[main 003f326] Imagen actualizada automáticamente
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+Traceback (most recent call last):
+  File "/home/lolcese/bgg_drive/bgg_drive.py", line 95, in <module>
+    os-system("git push")
+       ^^^^^^
+NameError: name 'system' is not defined
