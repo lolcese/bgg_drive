@@ -90,6 +90,6 @@ plt.savefig(f"bgg_{an}.png",dpi=200)
 plt.close('all')
 
 #os.system(f"rclone copy {path}/bgg_{anio}.png gdrive:bgg_drive")
-os.system(f"git add bgg_{2024}.png")
+os.system(f"git add bgg_{an}.png")
 os.system('git commit -m "Imagen actualizada automáticamente"')
 os-system("git push")
