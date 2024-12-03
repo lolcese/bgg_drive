@@ -56,7 +56,7 @@ if don != None:
     f.write(f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')},{don}\n")
     f.close()
 
-fig, ax1 = plt.subplots()
+fig, ax1 = plt.subplots(figsize=(10, 10))
 fig.suptitle(f"BGG Supporter drive {anio}")
 ax1.set_xlabel('Day (UTC)')
 fig.autofmt_xdate()
@@ -79,8 +79,8 @@ for an in range(2015, anio+1):
     dates = [pd.to_datetime(d) - pd.DateOffset(years = an - 2015) for d in x]
     supporters = [int(d) for d in y]
     if an == anio:
-        plt.plot_date(dates, supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
-    plt.plot_date(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+        plt.plot(dates,supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+    plt.plot(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
 plt.legend(loc="lower right", ncol=2)
 plt.tight_layout()
 plt.axhline(y=goal, color="#228b22", linestyle='-')
@@ -90,6 +90,6 @@ plt.savefig(f"bgg_{an}.png",dpi=200)
 plt.close('all')
 
 #os.system(f"rclone copy {path}/bgg_{anio}.png gdrive:bgg_drive")
-os.system("git add bgg_2024.png")
+os.system(f"git add bgg_{an}.png")
 os.system('git commit -m "Imagen actualizada automáticamente"')
-os-system("git push")
+os.system("git push")
