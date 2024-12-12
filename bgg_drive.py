@@ -56,7 +56,7 @@ if don != None:
     f.write(f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')},{don}\n")
     f.close()
 
-fig, ax1 = plt.subplots(figsize=(10, 10))
+fig, ax1 = plt.subplots(figsize=(6, 5))
 fig.suptitle(f"BGG Supporter drive {anio}")
 ax1.set_xlabel('Day (UTC)')
 fig.autofmt_xdate()
