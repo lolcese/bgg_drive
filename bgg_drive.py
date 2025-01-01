@@ -58,7 +58,7 @@ if don != None:
 
 fig, ax1 = plt.subplots(figsize=(6, 5))
 fig.suptitle(f"BGG Supporter drive {anio}")
-ax1.set_xlabel('Day (UTC)')
+ax1.set_xlabel('December day (UTC)')
 fig.autofmt_xdate()
 ax1.xaxis.set_major_formatter(mdates.DateFormatter("%d"))
 ax1.set_xlim(pd.Timestamp('2015-12-01 00:00:00'), pd.Timestamp('2016-01-01 12:00:00'))
@@ -80,6 +80,18 @@ for an in range(2015, anio+1):
     supporters = [int(d) for d in y]
     if an == anio:
         plt.plot(dates,supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
+        last_date = dates[-1]
+        last_supporter = supporters[-1]
+        ax1.annotate(
+            f"{last_supporter}",
+            xy=(last_date, last_supporter),  # Coordenadas del punto
+            xytext=(last_date, last_supporter + 1000),  # Posición del texto
+            arrowprops=dict(facecolor=colores[str(an)], shrink=0.05, width=1, headwidth=8),
+            fontsize=10,
+            ha='center',
+            va='bottom'
+        )
+
     plt.plot(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
 plt.legend(loc="lower right", ncol=2)
 plt.tight_layout()
