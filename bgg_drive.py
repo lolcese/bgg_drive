@@ -13,10 +13,11 @@ import re
 from urllib.request import urlopen
 
 ##############################
-# path = "/root/bgg_drive"
 path = "."
-anio = 2024
+anio = 2025
 goal = 20000
+flecha = False
+bajar = True
 
 colores = {
  '2015': '#e0c492',
@@ -29,6 +30,7 @@ colores = {
  '2022': '#88f2cb',
  '2023': '#3504c9',
  '2024': '#9b48a8',
+ '2025': '#ffa400',
 }
 ##############################
 
@@ -45,16 +47,17 @@ def lee_pagina():
     text = baja_pagina(url)
     if text == "Error":
         return None
-    supporters = re.search('"numsupporters":"(.*?)"',text)[1]
+    supporters = re.search('"numsupporters":"(.*?)"', text)[1]
     if not supporters:
        return None
     return supporters
 
-don = lee_pagina()
-if don != None:
-    f = open(f"{path}/drive_{anio}.dat", "a")
-    f.write(f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')},{don}\n")
-    f.close()
+if bajar:
+    don = lee_pagina()
+    if don != None:
+        f = open(f"{path}/drive_{anio}.dat", "a")
+        f.write(f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')},{don}\n")
+        f.close()
 
 fig, ax1 = plt.subplots(figsize=(6, 5))
 fig.suptitle(f"BGG Supporter drive {anio}")
@@ -76,32 +79,37 @@ for an in range(2015, anio+1):
             continue
         x.append(lines[0])
         y.append(lines[1])
-    dates = [pd.to_datetime(d) - pd.DateOffset(years = an - 2015) for d in x]
+    dates = [pd.to_datetime(d) - pd.DateOffset(years=an - 2015) for d in x]
     supporters = [int(d) for d in y]
-    if an == anio:
-        plt.plot(dates,supporters, '-', linewidth=4, markersize=0.0, color = "#FFFFFF")
-        last_date = dates[-1]
-        last_supporter = supporters[-1]
-        ax1.annotate(
-            f"{last_supporter}",
-            xy=(last_date, last_supporter),  # Coordenadas del punto
-            xytext=(last_date, last_supporter + 1000),  # Posición del texto
-            arrowprops=dict(facecolor=colores[str(an)], shrink=0.05, width=1, headwidth=8),
-            fontsize=10,
-            ha='center',
-            va='bottom'
-        )
+    max_supporters = max(supporters)  # Calcula el máximo de cada año
 
-    plt.plot(dates, supporters, '-', label = an, linewidth=2, markersize=0.0, color = colores[str(an)])
+    if an == anio:
+        plt.plot(dates, supporters, '-', linewidth=4, markersize=0.0, color="#FFFFFF")
+        if flecha:
+            last_date = dates[-1]
+            last_supporter = supporters[-1]
+            ax1.annotate(
+                f"{last_supporter}",
+                xy=(last_date, last_supporter),  # Coordenadas del punto
+                xytext=(last_date, last_supporter + 1000),  # Posición del texto
+                arrowprops=dict(facecolor=colores[str(an)], shrink=0.05, width=1, headwidth=8),
+                fontsize=10,
+                ha='center',
+               va='bottom'
+            )
+
+    plt.plot(dates, supporters, '-', label=f"{an} ({max_supporters})", linewidth=2, markersize=0.0, color=colores[str(an)])
+
 plt.legend(loc="lower right", ncol=2)
 plt.tight_layout()
 plt.axhline(y=goal, color="#228b22", linestyle='-')
 plt.text(x=pd.Timestamp('2015-12-01 12:00:00'), y=goal, s=f"Goal: {goal} supporters", ha='left', va='bottom', fontsize=12, color="#228b22") 
 fig.text(x=0.5, y=0.01, s=f"Generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC", ha='center', va='center', fontsize=8)
-plt.savefig(f"bgg_{an}.png",dpi=200)
+plt.savefig(f"bgg_{anio}.png", dpi=200)
 plt.close('all')
 
 #os.system(f"rclone copy {path}/bgg_{anio}.png gdrive:bgg_drive")
-os.system(f"git add bgg_{an}.png")
+os.system(f"git add bgg_{anio}.png")
 os.system('git commit -m "Imagen actualizada automáticamente"')
 os.system("git push")
+
