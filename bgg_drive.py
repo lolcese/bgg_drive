@@ -98,7 +98,8 @@ for an in range(2015, anio+1):
                va='bottom'
             )
 
-    plt.plot(dates, supporters, '-', label=f"{an} ({max_supporters})", linewidth=2, markersize=0.0, color=colores[str(an)])
+    alpha_val = 1.0 if an == anio else 0.4
+    plt.plot(dates, supporters, '-', label=f"{an} ({max_supporters})", linewidth=2, markersize=0.0, color=colores[str(an)], alpha=alpha_val)
 
 plt.legend(loc="lower right", ncol=2)
 plt.tight_layout()
