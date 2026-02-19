@@ -1,0 +1,2 @@
+0,15,30,45   *   * * * cd /home/lolcese/bgg_drive && /usr/local/bin/python bgg_drive.py >> /home/lolcese/bgg_drive/log.txt 2>&1
+
